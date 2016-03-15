@@ -56,7 +56,7 @@ def addInstances():
         if create_instance.status_code == 201:
             print(art_name + " instance added to Mission Control.")
         else:
-            print("Problem occurred adding " art_name + " instance to Mission Control.")
+            print("Problem occurred adding " + art_name + " instance to Mission Control.")
 
 if __name__ == '__main__':
     getInstancesUrls()
